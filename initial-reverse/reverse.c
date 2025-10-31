@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
     
     }
     else {
-        printf("usage: reverse <input> <output>\n");
+        fprintf(stderr,"usage: reverse <input> <output>\n");
         exit(1);
     }
     printf("\n");
